@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 
-public class SpringBootApp {
+public class Application {
 
 private static final Logger log = LoggerFactory.getLogger(SpringBootApp.class);
 public int Add(int a, int b) {
