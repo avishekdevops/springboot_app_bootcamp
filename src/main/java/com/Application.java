@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 public class Application {
 
-private static final Logger log = LoggerFactory.getLogger(SpringBootApp.class);
+private static final Logger log = LoggerFactory.getLogger(Application.class);
 public int Add(int a, int b) {
 return a+b;
 }
@@ -31,7 +31,7 @@ return a%b;
 }
 public static void main(String[] args) {
 log.info("Main method has been invoked");
-springApplication.run(SpringBootApp.class,args);
+springApplication.run(Application.class,args);
 }
 } 
 
