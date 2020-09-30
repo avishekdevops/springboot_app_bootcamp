@@ -31,7 +31,7 @@ return a%b;
 }
 public static void main(String[] args) {
 log.info("Main method has been invoked");
-springApplication.run(Application.class,args);
+SpringApplication.run(Application.class,args);
 }
 } 
 
