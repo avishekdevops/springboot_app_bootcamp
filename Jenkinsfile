@@ -27,7 +27,7 @@ try{
         }
     }
     
-    stage('Provision EC2 Instance'){
+    stage('Provision EC2 Instance for Docker'){
         sh 'pip list|grep boto'
        ansiblePlaybook becomeUser: 'ubuntu', credentialsId: 'ec2-login', playbook: '/home/ubuntu/git_sprintboot/Junit-Test/playbook.yml', sudoUser: 'ubuntu'
        sleep(60)
